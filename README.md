@@ -1,4 +1,4 @@
-# 👋 Meet Gondaliya
+# 👋 Hey
 
 > *I think about one problem: how does intention become execution?*
 
