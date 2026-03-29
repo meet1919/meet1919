@@ -21,7 +21,8 @@ Most AI work optimizes the translator. I'm more interested in what's being trans
 
 ## 🧩 What I'm Building
 
-### [RizzGen](https://rizzgen.ai) intent into video, directly
+### [RizzGen](https://rizzgen.ai) 
+**Intent into video, directly**
 
 The problem: high-level description (what you *mean*) and low-level execution (what a system *does*) are separated by a translation problem.
 
@@ -35,6 +36,18 @@ Human intent  →  [chunked description]  →  AI translator  →  [fine-grained
 ```
 
 > Looking for: people thinking about intent-execution gaps, multimodal agents, or the architecture of human-machine translation.
+
+---
+
+## 🧬 The Myelination Problem in Agents
+
+The brain doesn't reason from scratch every time. When you repeat a task, the neural pathway used the first time gets reused, myelin sheaths strengthen, electrical impulses travel faster. The brain *learns which path to take*, not just how to take it.
+
+Current agents don't do this. Given any task, they reason from zero even if they've solved something structurally identical before. Same reasoning, recomputed. Same tokens, wasted. No pathway memory, no efficiency gain over time.
+
+The fix isn't more compute. It's **procedural memory** - letting agents recognize that similar tasks share similar solution structures, and reusing that reasoning instead of regenerating it.
+
+This is an open problem I'm thinking about.
 
 ---
 
@@ -52,6 +65,7 @@ Human intent  →  [chunked description]  →  AI translator  →  [fine-grained
 | 🔁 NL → execution | Translating natural language into reliable, structured action |
 | 🧠 Thought structure | How abstract cognition maps to formal representation |
 | 🎬 Video generation | Controllable, intent-preserving video from high-level prompts |
+| 🧬 Procedural memory | How agents can reuse reasoning pathways instead of regenerating them |
 
 ---
 
