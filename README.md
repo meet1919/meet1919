@@ -1,76 +1,108 @@
-# 👋 Hey
+# Hey
 
-> *I think about one problem: how does intention become execution?*
+I keep coming back to one question:
 
-Not metaphorically - literally. The gap between what someone means and what a system does is where most intelligence fails. I'm obsessed with closing that gap.
+**How does intention become execution?**
 
----
-
-## 🧠 How I Think
-
-I work from the bottom up, then the top down, until they meet.
-
-- I don't trust surface-level patterns, I want the mechanism underneath
-- I think in translation layers: **thought → language → structure → action**
-- I treat abstraction as a tool, not a destination
-- I'd rather understand one thing deeply than have opinions about everything
-
-Most AI work optimizes the translator. I'm more interested in what's being translated - and whether the translation layer should exist at all.
+Not metaphorically - literally.
+The gap between what someone means and what a system actually does is where most intelligence fails. That gap is where I spend most of my time thinking.
 
 ---
 
-## 🧩 What I'm Building
+## How I Think
 
-### [RizzGen](https://rizzgen.ai) 
-**Intent into video, directly**
+I usually approach problems from both directions until they meet.
 
-The problem: high-level description (what you *mean*) and low-level execution (what a system *does*) are separated by a translation problem.
+Bottom-up: understand the mechanism.
+Top-down: understand the abstraction.
 
-Assembly language solved this once - rigidly, brittlely.  
-Natural language + agents solves it again - flexibly, reliably.
+Some principles I tend to follow:
 
-AI becomes the translator between human intent and machine action. RizzGen is one expression of this. Video is just the current medium. The real question is: **how far upstream can we push the interface?**
+* I care more about the **mechanism underneath a pattern** than the pattern itself
+* I think in **translation layers**:
+  **thought -> language -> structure -> action**
+* Abstraction is a **tool**, not a destination
+* I would rather understand one thing deeply than have shallow opinions about many things
+
+Most work in AI focuses on improving the translator.
+I'm often more interested in **what is being translated**, and whether the translation layer should exist at all.
+
+---
+
+## What I'm Building
+
+### RizzGen
+
+RizzGen explores a simple idea:
+
+**Intent -> execution**
+
+The problem is that high-level description (what a human means) and low-level execution (what a machine performs) are separated by a translation problem.
+
+Assembly languages once reduced this gap in a rigid way.
+Natural language combined with agents may reduce it again - this time flexibly.
+
+AI becomes the translator between **human intent** and **machine action**.
+
+Video is simply the current medium.
+
+The deeper question is:
+**how far upstream can the interface move before the interface disappears entirely?**
 
 ```
-Human intent  →  [chunked description]  →  AI translator  →  [fine-grained execution]  →  Video
+Human intent
+      ↓
+Chunked description
+      ↓
+AI translator
+      ↓
+Fine-grained execution
+      ↓
+Video
 ```
 
-> Looking for: people thinking about intent-execution gaps, multimodal agents, or the architecture of human-machine translation.
+---
+
+## Procedural Memory in Agents
+
+Human cognition rarely solves the same problem from scratch twice.
+
+When we repeat a task, the neural pathways used the first time get reinforced. Electrical signals travel faster along these routes. The brain learns **which path to take**, not just how to take it.
+
+Most agents today do not work this way.
+
+They recompute reasoning from zero even when they have solved structurally identical problems before. The same reasoning chain gets regenerated, the same tokens are spent again.
+
+What is missing is **procedural memory**:
+
+Agents recognizing that two tasks share a reasoning structure and reusing the pathway rather than regenerating it.
+
+This is one of the problems I'm currently exploring.
 
 ---
 
-## 🧬 The Myelination Problem in Agents
+## Areas I'm Interested In
 
-The brain doesn't reason from scratch every time. When you repeat a task, the neural pathway used the first time gets reused, myelin sheaths strengthen, electrical impulses travel faster. The brain *learns which path to take*, not just how to take it.
-
-Current agents don't do this. Given any task, they reason from zero even if they've solved something structurally identical before. Same reasoning, recomputed. Same tokens, wasted. No pathway memory, no efficiency gain over time.
-
-The fix isn't more compute. It's **procedural memory** - letting agents recognize that similar tasks share similar solution structures, and reusing that reasoning instead of regenerating it.
-
-This is an open problem I'm thinking about.
+* agentic systems
+* natural language -> structured execution
+* translating cognition into formal representations
+* controllable video generation from intent
+* procedural memory for agents
 
 ---
 
-## ⚡ Core Belief
+## Intellectual Influences
 
-**The best interface is no interface - just intention, met.**
+Some works that shaped how I think about cognition and intelligence:
 
----
-
-## 🔍 Current Focus
-
-| Area | What I'm exploring |
-|------|-------------------|
-| 🤖 Agentic systems | Agents that act, decide, and adapt without brittle pipelines |
-| 🔁 NL → execution | Translating natural language into reliable, structured action |
-| 🧠 Thought structure | How abstract cognition maps to formal representation |
-| 🎬 Video generation | Controllable, intent-preserving video from high-level prompts |
-| 🧬 Procedural memory | How agents can reuse reasoning pathways instead of regenerating them |
+* Gödel, Escher, Bach - recursion, representation, self-reference
+* Shadows of the Mind - computation and consciousness
+* Thinking, Fast and Slow - cognitive architecture and reasoning
 
 ---
 
-## 🚧 This profile is a lab. Not a portfolio.
+## Notes
 
----
+This profile is closer to a **lab notebook** than a portfolio.
 
-*If any of this resonates, let's think together.*
+If you're thinking about intent-execution gaps, multimodal agents, or the architecture of human-machine translation, feel free to reach out.
